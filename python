@@ -1,0 +1,19 @@
+print('Escolha uma opção')
+print('1 - Comercial')
+print('2 - Apartamento')
+print('3 - Casa')
+
+opção = input('Digite sua opção.. ')
+agua = float(input('Digite o consumo de água em m3.. '))
+
+if opção == ('1'):
+    print("Tarifa comercial aplicada, consulte o plano corporativo.")
+
+elif opção == ('2') and agua < 10:
+    print("Consumo econômico, excelente controle de água!")
+
+elif opção == ('2') or opção ('3') and agua <= 25:
+    print('Consumo moderado, dentro do padrão residencial.')
+
+else:
+    print('Consumo excessivo, adote medidas de economia e verifique vazamentos.')
